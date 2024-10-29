@@ -1,0 +1,828 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* CSS في ملف styles.css */
+.main-wrapper {
+    background-color: #37517E;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+.main-wrapper main {
+    padding-top: 12%;
+}
+
+.navbar-container {
+    height: 12%;
+    background-color: #37517E;
+    
+    width: 100%;
+   
+    transition: all 0.5s;
+   
+}
+
+.navbar-brand-wrapper {
+    width: 35%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.img-wrapper {
+    width: 100%;
+    height: auto;
+   
+}
+
+.nav-item{
+    margin-left: 15px;
+   font-weight: 400;
+   color: white ;
+  
+}
+.navbar-brand {
+    color: white !important;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+.nav-item a{
+    
+   color: white !important;
+}
+.main-wrapper div nav div .navbar-collapse  a button{
+    
+  
+   margin-left: 50px;
+   padding: 5px 20px;
+   
+   
+}
+.nav-item a:hover{
+    
+   color: #44A3D5 !important;
+}
+.dropdown-menu a{
+    color: black !important;
+   text-transform:capitalize;
+}
+.dropdown-item{
+    margin-bottom: 10px;
+}
+main div  button a span{
+    color: white;
+}
+main div  button a span:hover{
+    color: #44A3D5;
+}
+main div  button a .fa-circle-play{
+    color: white;
+}
+main div  button a .fa-circle-play:hover{
+    color: #44A3D5;
+}
+.img-wrapper img{
+    
+    transform: scale(0.95);
+   
+   
+    animation: logo-imge 4s ease-in-out infinite ;
+}
+@keyframes logo-imge {
+    50% {
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0.95);
+     
+     }
+ 
+       
+    
+ }
+ main div  .top div{
+    display: flex;
+    
+    
+    }
+
+ @media screen  and (max-width: 1024px){
+    
+    
+    .main-wrapper div nav div .navbar-collapse  a button{
+    
+  
+        margin-left: 90px;
+        padding: 5px 20px;
+    }     
+    
+}
+ @media screen  and (max-width: 768px){
+    
+    
+    .main-wrapper {
+        
+        height: 150vh;
+        
+    }
+    .main-wrapper main {
+        padding-top: 16%;
+    }
+    .main-wrapper div nav div .navbar-collapse  a button{
+    
+  
+        margin-left: 70px;
+        padding: 5px 20px;
+    }     
+    
+}
+ @media screen  and (max-width: 426px){
+    
+    
+    .main-wrapper {
+        
+        height: 120vh;
+        
+    }
+    .main-wrapper main {
+        padding-top: 25%;
+    }
+   
+    
+}
+ @media screen  and (max-width: 321px){
+    
+    
+   
+    main div  .top div{
+    
+    flex-direction: column !important;
+    justify-content: space-between !important;
+
+    }
+    
+}
+/*============================ section1======================= */
+ section .end-part{
+    width: 100%;
+    height: 20vh;
+    background-color:#F6F6F6;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .end-part .g1,
+section .end-part .g2,
+section .end-part .g3,
+section .end-part .g4,
+section .end-part .g5,
+section .end-part .g6{
+    width: 10%;
+    height: 40%;
+    margin: 35px;
+    
+    /* background-color: rgb(255, 255, 255);
+    border: 1px solid black; */
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.rounded-pill:hover{
+    background-color:#47b2e4de;
+    border: 1px solid #47b2e4de;
+
+}
+@media screen  and (max-width: 426px) {
+   
+    section .end-part{
+        position: absolute;
+        
+    }
+    section .end-part .g3,
+    section .end-part .g4,
+    section .end-part .g5,
+    section .end-part .g6 
+    {
+        width: 0%;
+        height: 0%;
+        margin: 0px
+    }
+    section .end-part .g1, section .end-part .g2{
+        width: 50%;
+        height: 40%;
+        margin: 35px;}
+        
+}
+@media screen and (max-width: 320px){
+    section .end-part{
+        width: 100%;
+        height: 10vh;
+        background-color:#F6F6F6;
+        margin-top: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+/* .title{
+    margin-top: 200px !important;
+} */
+
+.title::before
+{
+    content: '';
+    background: #8d8a8e;
+    height: 1px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background:#44A3D5;
+    height: 3px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 43px;
+    display: block;
+    transform : translateY(8px);
+}
+@media screen  and (max-width: 1024px){
+    .title::before
+{
+    margin-bottom: 7px;}
+}
+@media screen  and (max-width: 768px){
+    .title::before
+{
+    width: 150px;
+    
+    margin-bottom: 12px;}
+    .title::after
+{
+   
+    width: 75px;
+   
+}
+}
+@media screen  and (max-width: 426px){
+    .title::before
+{
+    
+    margin-bottom: 18px;}
+}
+@media screen  and (max-width: 376px){
+    .title::before
+{
+    
+    margin-bottom: 20px;}
+}
+
+    /*=================================== section2=========================  */
+
+.section2 .container div .button .btn:hover {
+   
+    color: white;
+    padding-right: 20px;
+}
+.section2 .container div .button .btn:hover .fa-arrow-right{
+    font-size: 30px;
+    color: white;
+}
+/* ============================== section3======================= */
+.section3 .container-fluid{
+    background-color:#F5F6F8;
+}
+ .accordion-item{
+    margin-bottom: 20px;
+    transition: all 0.5ms;
+   
+
+}
+ .accordion-item .accordion-button :hover{
+    color: #2BDCFF!important;
+
+}
+.section3 .container-fluid div .accor .accordion-item .accordion-button:hover h5 .span{
+    color: #47B2E4 !important;
+
+}
+.progress {
+    
+    height: 10px;
+}
+/* تخصيص شريط التقدم */
+.progress-bar {
+    font-weight: 500;
+    color: black;
+    text-align: right;
+    padding-right: 5px;
+    background-color: #37517E;}
+    /* ====================== section5==================== */
+   
+.boxback {
+   margin-top: 50px;
+    /* background-color: aqua; */
+  height: 60px;
+}
+ .card-body .card-title{
+    color: #37517E;
+}
+
+
+.card:hover .card-body .card-title{
+    color: #47B2E4;
+}
+.colg{
+  transition: all 0.5s ease-in-out;
+}
+ .colg:hover{
+   padding-top: 0% !important;
+}
+@media screen  and (max-width: 1024px){
+    .section5 .container{
+        width: 80% !important;
+    }
+    .colg{
+        width: 50%;
+    }
+}
+@media screen  and (max-width: 768px){
+    .section5 .container{
+        width: 100% !important;
+    }
+}
+@media screen  and (max-width: 426px){
+    .section5 .container{
+        width: 90% !important;
+    }
+    .colg{
+        width: 100% !important;
+        
+    }
+}
+/* ======================== section6=========================== */
+
+.background-section {
+    background-image: url('../images/imaes.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    height: 400px; 
+    position: relative;
+}
+
+
+.overlay {
+    background-color: rgba(65, 95, 141, 0.656); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+
+.content {
+    position: relative;
+    z-index: 2;
+    padding: 50px;
+}
+.content .row div .butside {
+    padding: 15px 50px;
+}
+.content .row div .butside:hover {
+   color: white;
+}
+@media screen  and (max-width: 1024px){
+    .content .row div .butside {
+        padding: 10px 25px;
+    }
+    
+}
+@media screen  and (max-width: 376px){
+    
+    .content {
+      
+        padding: 20px;
+    }
+}
+/* ========================== section7============================= */
+#Portfolio {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    /* background-color: #909090; */
+    /* border: 1px solid black; */
+}
+#Portfolio div {
+    width: 93%;
+    height: 36.5%;
+    margin-bottom: 15px;
+    margin-left: 7px;
+   
+   
+    /* background-color: #909090; */
+    
+    
+    position: relative;
+    transition: all 0s;
+    cursor: pointer;
+}
+
+#Portfolio div .image{
+  
+
+    
+    width: 100%;
+    height: 100%;
+    /* background-color: #00000013; */
+   background-image: url(../images/masonry-portfolio-1.jpg);
+   background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    
+    
+}
+#Portfolio div .link{
+    
+    width: 100% !important;
+    height: 25%;
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    bottom: 0px;
+    left: 7px !important;
+     margin-bottom: 0% !important;
+     margin-left: 0% !important;
+     margin-right: 0% !important;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#Portfolio div:hover .image{
+    
+    width: 100%;
+    height: 100%;
+        
+}
+#Portfolio div:hover .link { background-color: rgba(255, 255, 255, 0.892);}
+#Portfolio div:hover .link .div1 h3{ color:#37517E;}
+
+#Portfolio div:hover .link .div1 p,
+#Portfolio div:hover .fa-link,
+#Portfolio div:hover .fa-magnifying-glass-plus
+{color:#909090;}   
+#Portfolio div .link .div1{
+    width: 60%;
+    height: 100%;
+    /* background-color: #909090; */
+    margin: 0% !important;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items: flex-start;
+}
+#Portfolio div .link .div1 h3{
+    color: #00000000;
+    font-size: 3ch;
+    
+}
+#Portfolio div .link .div1 p{
+color:#90909000;
+
+}
+#Portfolio div .link .div2{
+    width: 20%;
+    height: 100%;
+    /* background-color: #909090; */
+   
+
+    margin: 0%;
+    display: flex;
+    align-items: center;
+  
+   
+}
+.fa-link,
+.fa-magnifying-glass-plus{
+color:#90909000;
+font-size: 3ch;
+margin: auto;
+
+}
+.fa-link:hover ,
+.fa-magnifying-glass-plus:hover{
+
+cursor: progress;
+color:#47B2E4 !important;
+
+}
+.nav-item .look{
+   
+    color: black;
+    /* border-radius: 18px !important; */
+    
+}
+.nav-item .look:hover{
+    background-color:#47B2E4 !important ;
+    border: #47B2E4 !important;
+    color: white;
+   
+}
+
+.nav-pills .look.active, .nav-pills .show > .nav-link{
+    color: rgb(255, 255, 255) !important;
+    background-color: #47B2E4 !important;
+}
+/* ******************************************************* */
+/* ******************* madia section7********************** */
+@media screen  and (max-width: 768px){
+    .nonee{
+         display:none !important; }
+}
+
+@media screen  and (max-width: 426px){
+    
+    .nonee1{ display: none !important;}
+    
+    
+    
+    
+}
+@media screen  and (max-width: 321px){
+   
+    .nav-pills{
+        
+       flex-wrap: nowrap !important;
+    }
+}
+/* ********************************************* */
+/* ********************************************* */
+/* *******************section8********************* */
+/* ********************************************* */
+.fa-x-twitter,
+.fa-facebook,
+.fa-instagram,
+.fa-linkedin
+{
+    color:#464646 ;
+    font-size: 18px;
+    border: 0px ;
+    border-radius: 50% 50% 50%;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.332);
+    margin-right: 5px;
+    
+}
+.fa-x-twitter:hover,
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-linkedin:hover
+{
+    color: rgb(255, 255, 255) ;
+    background-color:#47B2E4;
+    
+    
+}
+.cardd{
+    transition: all 0.5s ease-in-out;
+    padding-top: 10px !important;
+  }
+   .cardd:hover{
+     padding-top: 0px !important;
+  }
+  @media screen  and (max-width: 426px){
+   
+    .hint{
+        height: 225px;
+    }
+    .hint img{
+        transform: scale(0.5) !important;
+    }
+    .hint1 h4,hr,span,p{
+        text-align: center !important;
+    }
+    .hint1 hr{
+        margin: auto !important;
+        margin-bottom: 7px !important;
+    }
+}
+  @media screen  and (max-width: 321px){
+   
+    .hint{
+        height: 160px;
+    }
+    .hint img{
+        transform: scale(0.5) !important;
+    }
+}
+/* =================================================== */
+/* =================================================== */
+/* ============================section9======================= */
+/* =================================================== */
+.go:hover{
+    color: white !important;
+
+}
+.cardpricing{
+    margin-top: 20px;
+}
+    
+@media screen  and (max-width: 1024px) {
+    .cardpricing{ height: 80vh !important;}
+    .cardpricing .ppp{ margin-right: 0% !important;}
+ }   
+@media screen  and (max-width: 426px) {
+    .cardpricing .card-body{ margin-left: 10px !important;}
+    .cardpricing p{ text-align: left !important;}
+    
+ }   
+ /* ==================================================== */
+ /* ==================================================== */
+ /* =============================section10======================= */
+ /* ==================================================== */
+ /* ==================================================== */
+ .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #cac6c6 !important;
+}
+
+.carousel-indicators .active {
+    background-color: #3498db !important;
+}
+.star-rating {
+    display: inline-flex;
+    font-size: 24px;
+    margin-top: 0px !important;
+}
+
+.star {
+    color: #FFD700; 
+    margin: 0 2px; 
+}
+.d-none{
+    display: block !important;
+}
+
+.imgfoll {
+    height: 66vh !important; 
+   
+           
+}
+.carousel-caption h3{
+    color: #37517E !important;
+}
+
+
+
+  @media screen  and(max-width: 1440px) {
+   
+    .imgfoll {
+        height: 66vh !important; 
+       
+               
+    }
+
+    
+    } 
+ @media screen  and (max-width: 376px) {
+    .imgfoll {
+        height: 73vh !important  ; 
+        
+               
+    }
+        
+     } 
+ @media screen  and (max-width: 321px) {
+    .imgfoll {
+        height: 78vh !important  ; 
+               
+    }
+        
+     } 
+     /* ============================== section11========================== */
+     .section11 .accordion-item{
+        box-shadow: 1px 1px 2px black;
+     }
+     
+     @media screen  and (max-width:426px) {
+          #h1rong::before
+    {margin-bottom: -15px !important;
+       
+    }}
+     @media screen  and (max-width:321px) {
+          #h1rong::before
+    {margin-bottom: -13px !important;
+       
+    }}
+         
+     /* ============================= section12=============================== */
+    
+.fa-location-dot,
+.fa-envelope,
+.fa-phone{
+    background-color: #F3F1F1 ;
+   color:#47B2E4;
+   
+    font-size: 30px;
+    border: 0px ;
+    border-radius: 50% 50% 50%;
+    padding: 10px ;
+    
+    margin-right: 5px;
+    
+}
+
+@media screen  and (max-width: 426px) {
+   
+    .address {
+        flex-wrap: nowrap !important;
+        width: 90%;
+        
+    }
+    
+    .address .address1{
+        width: 20% !important;
+        
+    }
+               
+    .address .card-text {
+       text-align: left !important;
+        
+    }
+               
+    }
+    /* =============================== section 13======================== */
+    .warning-message {
+        color: white;
+        background-color: red;
+        padding: 10px;
+        margin-top: 30px !important;
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+        border-radius: 5px;}
+        
+        @media screen  and (max-width: 426px) {
+   
+            .error {
+                width: 90% !important;
+                
+            }
+        }
+        /* ===================================== footer====================================== */
+        .finsh{
+            text-decoration: none;
+            color: #8d8a8e;
+            transition: all 1s;
+        }
+        
+        .finsh:hover{
+            
+            color:#2BDCFF;
+        }
+        @media screen  and (max-width: 426px) {
+            .finsh2{
+                text-align: left !important;
+            }
+            
+        }
+        @media screen  and (max-width: 769px) {
+           
+        .tray{
+            background-color: rgb(0, 0, 0) !important;
+            background-size: 100px 200px !important;
+            
+           
+        }
+           
+        .tray ul li a{
+           color: rgb(255, 255, 255) !important;
+           
+        }
+    }
+     
